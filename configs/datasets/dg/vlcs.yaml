@@ -1,0 +1,33 @@
+# The basic information for VLCS dataset.
+dataset: 
+  name: vlcs
+  class_num: 5
+  nums:
+    C: 991
+    L: 1859
+    P: 2363
+    S: 2297
+  root_dir: "/data/"
+  list_dir: "data/vlcs"
+  domains:
+    S: SUN
+    C: CALTECH
+    L: LABELME
+    P: PASCAL
+
+# The config for pre-processing VLCS dataset.
+process:
+  scales:
+    - 0.9
+    - 1
+  size:
+    - 224
+    - 224
+  mean: 
+  - 0.485
+  - 0.456
+  - 0.406
+  std: 
+  - 0.229
+  - 0.224
+  - 0.225

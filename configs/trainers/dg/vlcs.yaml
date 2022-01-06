@@ -1,0 +1,23 @@
+# The training config for VLCS dataset.
+client:
+  nums: 2
+  epoch: 10
+  bs: 64
+  length: 20
+  frac: 1.0
+
+server:
+  epoch: 5
+  bs: 64
+  length: 20
+
+optim:
+  name: SGD
+  params:
+    lr: 0.001
+    momentum: 0.5
+
+model:
+  bottleneck_dim: 256
+
+

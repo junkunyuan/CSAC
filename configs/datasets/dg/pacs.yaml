@@ -1,0 +1,33 @@
+# The basic information for PACS dataset.
+dataset:
+  name: pacs
+  class_num: 7
+  nums:
+    A: 2048
+    C: 2344
+    P: 1670
+    S: 3929
+  root_dir: "/data/"
+  list_dir: "data/pacs"
+  domains:
+    A: art_painting
+    C: cartoon
+    P: photo
+    S: sketch
+
+# The config for pre-processing PACS data.
+process:
+  scales:
+    - 0.9
+    - 1.0
+  size: 
+    - 224
+    - 224
+  mean: 
+    - 0.485
+    - 0.456
+    - 0.406
+  std:
+    - 0.229
+    - 0.224
+    - 0.225
