@@ -61,8 +61,8 @@ nohup sh run.sh > run.txt 2>&1 &
 4. Check results in ***logs/(dataset)_(network)/(target domain)/(time)/logs.txt*** .
 
 
-<!-- ## Updates
-- [01/01/2021] We uploaded a new arXiv version. See [new arXiv version](https://arxiv.org/abs/2110.06736). -->
+## Updates
+- [01/16/2022] We uploaded a new arXiv version. See https://arxiv.org/abs/2110.06736.
 
 
 ## Citation
