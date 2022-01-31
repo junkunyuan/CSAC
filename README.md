@@ -58,7 +58,7 @@ Please note:
 ```
 nohup sh run.sh > run.txt 2>&1 &
 ```
-4. Check results in ***logs/(dataset)_(network)/(target domain)/(time)/logs.txt*** .
+4. Check results in: ***logs/`dataset`_`network`/`target domain`/`date`/logs.txt***.
 
 
 ## Updates
