@@ -7,7 +7,7 @@ This repository contains the implementation code for paper:
 
 Junkun Yuan, Xu Ma, Defang Chen, Kun Kuang, Fei Wu, Lanfen Lin
 
-*arXiv preprint, 2021*
+*IEEE Transactions on Knowledge and Data Engineering (TKDE), 2023*
 
 [[arXiv](https://arxiv.org/abs/2110.06736)]
 
